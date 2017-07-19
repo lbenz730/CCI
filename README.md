@@ -1,5 +1,5 @@
 # GPA calculator for Middlebury College Center for Careers and Internships
-This is a web application for determining how many courses in which one needs to get a certain grade in order to raise their current grade point average to some desired grade point average. Since this application was designed for Middlebury College Center for Careers and Internships, GPA contributions from the Assumed Grade is based on the [grading system used at Middlebury College](http://www.middlebury.edu/about/handbook/academics/Grades_and_Records). Even if your school uses a slighlty different grading scale, this application will provide a very close approximation (if not exact).
+This is a web application for determining how many courses in which one needs to get a certain grade to raise their current grade point average to some desired grade point average. Since this application was designed for Middlebury College Center for Careers and Internships, GPA contributions from the Assumed Grade is based on the [grading system used at Middlebury College](http://www.middlebury.edu/about/handbook/academics/Grades_and_Records). Even if your school uses a slighlty different grading scale, this application will provide a very close approximation (if not exact).
 
 To use the app, visit http://cci.herokuapp.com/.
 
