@@ -14,3 +14,7 @@ __Assumed Grade:__ Enter letter grade (A, B+, C- etc.), with letter capitalized.
 
 ### Possible Errors:
 You will get errors for entering non-numeric text in any field that requires numeric text, or for entering numeric text in the __Assumed Grade__ field. Additionally, you will get an error if it is impossible for you to reach your target GPA with the Assumed Grade. For example, a student with current GPA of 3.2 and target GPA of 3.5 will not be able to reach their target GPA with Assumed Grade of B+ (weight = 3.3).
+
+
+### Developer Comments/Questions
+If you notice something that I didnt't catch, break the app, or have futher questions, please send me an email at luke.benz@yale.edu.
