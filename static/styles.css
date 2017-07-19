@@ -7,7 +7,7 @@ body
 {
     position: absolute;
     top: 85%;
-    left: 49.3%;
+    left: 50%;
     margin-top: -50px; 
     margin-left: -100px; 
 }
@@ -74,6 +74,7 @@ body
     top: 90%;
     left: 39.5%;
 }
+
 
 #pic
 {
