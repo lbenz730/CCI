@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+{% block head %}
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+   <div id = "top2">
+       To achieve your desired GPA of {{ GPA }}, 
+    </div>  
+    <div id = "top2">
+       you must get a(n) {{ grade}} in {{ totake }} classes
+   </div>
+   <!-- Create Button to return home -->
+    <form action="{{ url_for('home') }}" method="get">
+        <fieldset>
+            <div id = "btn">
+                <div class="form-group">
+                    <button class="btn btn-success" type="submit">Try Again</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

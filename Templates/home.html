@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    home
+{% endblock %}
+
+{% block head %}
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet"/>
+{% endblock %}
+
+{% block main %}
+
+    <!-- setup select player form and button -->
+    <form action="{{ url_for('home') }}" method="post">
+        <fieldset>
+            <div id = "text1">
+                <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="CurrentGPA" placeholder="Current GPA" type="text"/>
+                </div>
+            </div>
+            <div id = "text2">
+                <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="DesiredGPA" placeholder="Desired GPA" type="text"/>
+                </div>
+            </div>
+             <div id = "text3">
+                <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="Classes" placeholder="# of Courses Taken" type="text"/>
+                </div>
+            </div>
+             <div id = "text4">
+                <div class="form-group">
+                    <input autocomplete="off" autofocus class="form-control" name="AssumedGrade" placeholder="Assumed Grade" type="text"/>
+                </div>
+            </div>
+            <div id = "btn">
+                <div class="form-group">
+                    <button class="btn btn-info" type="submit">Calculuate</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    
+    <!-- provide instructions -->
+    <div id = "top">
+        Middlebury College "Desired GPA Calculuator"
+    </div>
+    
+    <div id = "copy">
+        Created by: Luke Benz, January 2017
+    </div>
+    
+    <div id = "pic">
+         <img alt="Grumpy Cat" src="static/Logo.png"/>
+    </div>
+    
+   
+{% endblock %}
