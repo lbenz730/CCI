@@ -17,7 +17,7 @@ Pygments==2.2.0
 Pyphen==0.9.4
 SQLAlchemy==1.1.3
 WeasyPrint==0.39
-Werkzeug==0.11.11
+Werkzeug==0.15.3
 argparse==1.4.0
 backports.shutil-get-terminal-size==1.0.0
 backports.shutil-which==3.5.1
