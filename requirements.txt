@@ -5,7 +5,7 @@ Flask-Session==0.3.0
 Jinja2==2.8
 gunicorn
 CairoSVG==2.0.3
-Django==1.10
+Django==1.11.29
 Flask==0.11.1
 Flask-JSGlue==0.3.1
 Flask-SQLAlchemy==2.1
