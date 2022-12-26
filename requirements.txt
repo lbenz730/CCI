@@ -67,4 +67,4 @@ twython==3.4.0
 urllib3==1.7.1
 virtualenv==15.0.3
 webencodings==0.5.1
-wheel==0.24.0
+wheel==0.38.1
